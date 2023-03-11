@@ -1,0 +1,211 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+    width: 25%;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin: 2rem auto;
+    /* border: 2px solid black; */
+    /* height: 75vh; */
+    background-color: #fff;
+    /* text-align: center; */
+}
+
+/* .card-main {
+    width: 90%;
+    margin:  auto;
+    border: 1px solid black;
+} */
+
+
+
+.img {
+    width: 16px;
+    float: right;
+    margin-right: .3rem;
+    margin-top: .3rem;
+}
+
+h2 {
+    margin: 1.8rem auto;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+
+}
+.anchor {
+    text-align: center;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+}
+.first-anchor {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid gray;
+    width: 45%;
+    margin: 1rem auto;
+    align-items: center;
+    border-radius: 3px;
+    padding: .4rem ;
+}
+
+.second-anchor {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #3b5998;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #3b5998;
+    width: 50%;
+    margin:  auto;
+    align-items: center;
+    padding: .4rem .6rem ;
+
+}
+.google{
+    width: 16px;
+}
+
+.facebook {
+    width: 18px;
+}
+
+.one {
+    color: black;
+}
+
+
+.one,
+.two {
+    font-weight: 500;
+    font-size: .9rem;
+}
+.two{
+    color: white;
+}
+.fb {
+    color: white;
+}
+.card-footer {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.or {
+    margin: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.or::before {
+    content: "";
+    height: 1px;
+    width: 40vw;
+    background-color: lightgray;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: -1;
+
+}
+.or::after {
+    content: "";
+    height: 1px;
+    width: 40vw;
+    background-color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+span {
+    background-color: #fff;
+    padding: 0 1rem;
+}
+
+
+input[type="email"]{
+    width: 90%;
+    outline: none;
+    display: block;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    background-color: rgba(173, 216, 230, 0.159);
+}
+
+input[type="password"] {
+    width: 90%;
+    outline: none;
+    display: block;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    background-color: rgba(173, 216, 230, 0.159);
+}
+
+.input {
+    position: relative;
+}
+
+.input .john {
+    position:absolute;
+    right: 0;
+    top: 10px;
+    padding: 0 10px;
+}
+label {
+    display: block;
+    font-size: .8rem;
+}
+
+
+button {
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    padding: .5rem;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+button:hover {
+    background-color: rgba(30, 143, 255, 0.8);
+}
+
+.last-anchor {
+    text-align: center;
+    margin: 2rem;
+    /* margin-bottom: 2rem; */
+    text-decoration: none;
+    color: black;
+    opacity: .7;
+    font-size: .9rem;
+}
